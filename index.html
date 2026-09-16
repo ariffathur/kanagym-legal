@@ -33,7 +33,13 @@
       margin: 0 auto;
     }
     .hero { text-align: center; margin-bottom: 28px; }
-    .hero .cat { font-size: 3rem; display: block; margin-bottom: 4px; }
+    .hero-icon {
+      display: block;
+      width: 96px;
+      height: 96px;
+      border-radius: 22px;
+      margin: 0 auto 10px;
+    }
     .hero h1 { color: var(--ink); font-size: 2rem; font-weight: 800; }
     .hero p { color: var(--muted); font-weight: 600; margin-top: 4px; }
     .cards {
@@ -69,7 +75,7 @@
 <body>
   <main>
     <div class="hero">
-      <span class="cat">🐈‍⬛</span>
+      <img class="hero-icon" src="./app-icon.png" alt="KanaGym icon" width="96" height="96" />
       <h1>KanaGym</h1>
       <p>Legal pages for the kana recall training game.</p>
     </div>
